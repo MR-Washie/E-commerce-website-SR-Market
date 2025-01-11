@@ -1,0 +1,293 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.off-section{
+    background-color: rgba(117, 22, 73, 0.93);
+    margin: 0px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+
+}
+.logo{
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.icon{
+    margin-left: 6px;
+    background-color: rgba(16, 16, 17, 0.862);
+    color: rgb(255, 255, 255);
+    width: 125px;
+    text-align: center;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    margin-left: 20px;
+    
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-right: 50px;
+    margin-bottom: 70px;
+    font-size: 18px;
+    
+
+}
+.right li{
+    list-style: none;
+
+}
+.right li a{
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in;
+}
+.right li a:hover{
+    cursor: pointer;
+    background-color: rgb(192, 86, 86);
+    color: whitesmoke;
+    
+}
+.categories{
+    display: flex;
+   
+    margin-top: 20px;
+    gap: 70px;
+    margin-bottom: 7px;
+    font-size: 20px;
+    background-color : rgb(209, 88, 88);
+    justify-content: space-evenly;
+
+}
+.categories li{
+    list-style: none;
+   
+}
+.categories li a{
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+    padding: 5px 10px;  
+    border-radius: 5px;
+    transition: all 0.3s ease-in;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+}
+.categories li a:hover{
+    background-color: rgb(192, 86, 86);
+    color: whitesmoke;
+    transform: translateY(-4px);
+    text-decoration: underline;
+}
+.main{
+    height: 75vh;
+    width: 100%;
+    
+}
+.search-section{
+    position: absolute;
+    left: 40%;
+    top: 36vh;
+    
+}
+.search{
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    outline: none;
+    box-shadow: 5px 2px 10px rgba(74, 52, 52, 0.764) inset;
+    background-color: rgb(253, 224, 228);
+}
+.search-bottom{
+    padding: 5px 10px;
+    margin: 5px;
+    font-size: 22px;
+    background-color: rgb(253, 224, 228);
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 5px 2px 10px rgba(74, 52, 52, 0.764);
+    transition: all 0.2s ease-in;
+    
+}
+.search-bottom:hover{
+    transform: translateY(-3px)
+}
+.story{
+    position: absolute;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    top: 750px;
+    
+}
+.demo{
+    height: 75vh;
+    margin-left: 17.5%;  
+}
+.feature{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.products{
+    align-items: center;
+    display: flex;
+    gap: 150px;
+}
+.product{
+    cursor: pointer;
+    width: 250px;
+    text-align: center;
+    outline-color: black;
+    margin-right: 40px;
+
+
+}
+
+.proc{
+    cursor: pointer;
+    margin-left: 25px;
+    text-align: center;
+}
+.buy{
+    cursor: pointer;
+    margin: 5px;
+    padding: 3px 5px;
+    border-radius: 5px;
+    background-color: rgba(15, 19, 133, 0.848);
+    color: azure;
+    transition: all 0.2s ease-in;;
+
+}
+
+.contact{
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+
+.item{
+    height: 56vh;
+}
+.name{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.name input{
+    border-radius: 5px;
+    width: 250px;
+    height: 30px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.email{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.email input{
+    border-radius: 5px;
+    width: 250px;
+    height: 30px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.feed{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.feed textarea {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+}
+.submit{
+    background-color: rgba(238, 178, 188, 0.63);
+    cursor: pointer;
+    position: relative;
+    left: 47%;
+    margin-bottom: 10px;
+    font-size: 20px;
+    width: 95px;
+}
+.service{
+    display: flex;
+    gap: 10px;
+    margin-left: 30px;
+    justify-content: space-evenly;
+    height: 10vh;
+    margin-top: 30px;
+}
+.service li{
+    list-style: none;
+    
+
+}
+.service li a{
+    text-decoration: none;
+    color: rgb(239, 226, 236);
+    font-size: 18px;
+    transition: all 0.2s ease-in;
+    margin: 5px;
+    padding: 5px 10px;
+    
+    border-radius: 5px;
+}
+.service li a:hover{
+    transform: translateY(-4px);
+    color: rgb(184, 25, 120);
+}
+.social{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+.social li{
+    list-style: none;
+}
+.social li a{
+    font-size: 40px;
+    margin: 50px;
+    padding: 5px 10px;
+    color: rgb(165, 217, 217);
+    transition: all 0.2s ease-in;
+}
+.social li a:hover{
+    color: white;
+    transform: scale(1.2);
+    transform: translateY(-5px);
+    
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.921);
+    margin: 10px;
+    padding: 10px 20px;
+}
